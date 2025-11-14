@@ -1,9 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { getPlugin } from 'react-svg-helper';
 
 export default defineConfig({
-  plugins: [react(), getPlugin("101")],
+  plugins: [react()],
   
   // Define global variables for process polyfill
   define: {
